@@ -20,7 +20,7 @@ function FormInput({ view, handleSubmit, setTitle, title }) {
         </div>
       </form>
       <span className="mx-4 italic text-red-600">{`${
-        title.length < 5 && title.length > 1 ? "teks terlalu sedikit" : ""
+        title.length < 4 && title.length > 1 ? "teks terlalu sedikit" : ""
       }`}</span>
     </div>
   );

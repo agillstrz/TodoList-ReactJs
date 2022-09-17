@@ -11,7 +11,7 @@ function TodoList() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (title) {
-      if (title.length > 5) {
+      if (title.length > 4) {
         const newTodo = [
           ...todo,
           { id: Math.floor(Math.random() * 100000), title, complete: false },
