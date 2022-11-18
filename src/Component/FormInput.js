@@ -15,7 +15,7 @@ function FormInput({ view, handleSubmit, setTitle, title }) {
             />
           </div>
           <button type="submit" className="btn">
-            Submit aja
+            Submit aja bro
           </button>
         </div>
       </form>
